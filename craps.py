@@ -23,7 +23,7 @@ def playing_a_game():
         print ("You lose")
         return False
 
-    else:
+    else:                       #the numbers 4,5,6,8,9,10
         print("Now your goal number is {}".format(rolling))
         goal = rolling
         while True:
